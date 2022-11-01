@@ -1,0 +1,502 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Practical Network Troubleshooting · Varad Ghodake's Resume and Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Varad Ghodake">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="docker-podman-net.html" />
+    
+    
+    <link rel="prev" href="deployment-aws.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Resume</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="https://drive.google.com/file/d/1l0I7qt46xVaP8FPc6Dqo7dAxVU29EwGd/view?usp=sharing">
+            
+                    
+                    Download Resume
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../resume.html">
+            
+                <a href="../resume.html#summary">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../resume.html">
+            
+                <a href="../resume.html#experience">
+            
+                    
+                    Experience
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../resume.html">
+            
+                <a href="../resume.html#education">
+            
+                    
+                    Education
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../resume.html">
+            
+                <a href="../resume.html#skillset">
+            
+                    
+                    Skillset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../resume.html">
+            
+                <a href="../resume.html#certifications">
+            
+                    
+                    Certifications
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tech stuff</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="deployment-aws.html">
+            
+                <a href="deployment-aws.html">
+            
+                    
+                    Cloud deployments & AWS core services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="PracticalNetworking.html">
+            
+                <a href="PracticalNetworking.html">
+            
+                    
+                    Practical Network Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docker-podman-net.html">
+            
+                <a href="docker-podman-net.html">
+            
+                    
+                    alias docker='podman'
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="ksqldb-experiments.html">
+            
+                <a href="ksqldb-experiments.html">
+            
+                    
+                    A Very Bad ksqlDB Tutorial
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="kubernetes-troubleshoot.html">
+            
+                <a href="kubernetes-troubleshoot.html">
+            
+                    
+                    Kubernetes Troubleshooting notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Practical Network Troubleshooting</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="network-troubleshooting-methodology">Network Troubleshooting methodology</h3>
+<p><br></p>
+<p>&#x1F310;&#x1F4F6;</p>
+<hr>
+<p>Useful resources: <a href="https://benpiper.com/" target="_blank"> Ben Piper </a> and <a href="https://www.dummies.com/programming/networking/cisco/network-basics-remote-host-arp-requests/" target="_blank"> Short intro to ARP </a></p>
+<p>For basic networking troubleshooting:</p>
+<blockquote>
+<p>One should learn common commands for diagnosing and troubleshooting network related issues. Some of the utilities SREs/Software Developers use include things like ping, traceroute, ipconfig/ip/ifconfig, nslookup, and netsh. One should also learn how and when to use them and how to interpret their outputs. </p>
+</blockquote>
+<h5 id="sections">Sections</h5>
+<h6 id="background">Background</h6>
+<ol>
+<li><p>Introduction to internetworking</p>
+<ul>
+<li>Internetworking and internet</li>
+</ul>
+</li>
+<li><p>Connectivity</p>
+<ul>
+<li>LANs</li>
+<li>Routers/Layer-3 Switches (physical devices) and Gateways (interface)</li>
+<li><p>ARP protocol: IP (level-3) -&gt; MAC (level-2), default gateways &lt;-&gt; MAC mapping for destination packet building</p>
+<blockquote>
+<p>Every machine has a default gateway i.e. a physical devide/IP that can route packets to the destination. This gateway can be a Router or a Layer-3 switch. While creating a destination packet, machine uses ARP protocol to get level-3 device&apos;s MAC address. It encapsulates the destination IP and gateway MAC in that packet.</p>
+<p>Same thing happens in reverse-order on the receiving-side</p>
+</blockquote>
+</li>
+<li>Firewalls: for security and NAT-ing</li>
+<li>ISP: Customer Premises Equipment (CKE) router and ISP-peering<blockquote>
+<p>These CKEs (given by ISPs) provide an interface to on-premise firewalls to connect to ISPs. ISPs peer with each other to facilitate the connection.</p>
+</blockquote>
+</li>
+<li>Root servers and ADNS<blockquote>
+<p>Some huge orgs maintain root DNS servers; while querying a site over the internet, intranet DNS server connects to one of these root servers and queries for the destination address IP. These root servers know what the Authoratative DNS for that external site is. This ADNS then provides the IP address of pertaining service. </p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>Troubleshooting methodology</p>
+<ul>
+<li>Defining the problem</li>
+<li>Isolate the layer</li>
+<li>Isolate the scope</li>
+<li>Isolate the cause</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 id="isolating-the-layer">Isolating the layer</h4>
+<p>We go from the lowest layers (Physical, DLL) to the highest (Network, Transport) since each layer depends on all lower layers. <br>
+Networking related problems are generally upto transport layer. <br>
+The last 3, Session, Presentation, Application layers are generally application specific and one needs to have some sort of application implimentation knowledge.</p>
+<h5 id="1-physical-layer">1. Physical Layer</h5>
+<ul>
+<li>Is the network cable plugged in?</li>
+<li>Does the NIC have a link light?</li>
+</ul>
+<h5 id="2-data-link-layer">2. Data Link Layer</h5>
+<ul>
+<li>Initial check: <code>ipconfig/ifconfig</code> to check if ip and netmask are configured properly, ARP won&apos;t work otherwise</li>
+<li><p>Is the problem confined to intranet or spans internet as well?</p>
+</li>
+<li><p>Other devices on LAN are reachable?</p>
+<pre><code class="lang-sh">$ ping &lt;broadcast_ip&gt;
+$ arp <span class="hljs-_">-a</span>
+</code></pre>
+</li>
+<li>Is the default gateway reachable? Same step as above with the default/ARP gateway</li>
+</ul>
+<p>If the IP address is wrong, we should get one assigned through DHCP. Some switches are well equipped enough to act as a DHCP server: <code>ifconfig/ipconfig</code> lists the DHCP server.</p>
+<h5 id="3-network">3. Network</h5>
+<ul>
+<li>Is the destination reachable? <code>traceroute, pathping</code></li>
+</ul>
+<h5 id="ipv4">IPv4</h5>
+<p>Possible causes:</p>
+<ul>
+<li>Wrong IPv4 default gateway</li>
+<li>Static APR entry; should be dynamic</li>
+</ul>
+<pre><code class="lang-sh"><span class="hljs-comment"># delete ARP cache</span>
+$ arp <span class="hljs-_">-d</span>
+</code></pre>
+<p>Can also use <code>netsh</code> (Network Shell)</p>
+<h5 id="ipv6">IPv6</h5>
+<p>IPv6 does not use ARP. It uses Neighbor Discovery Protocol; operates in similar pricipal to ARP but we administer it differently.</p>
+<p><code>arp -a</code> equivalent:</p>
+<pre><code class="lang-sh">$ netsh
+&gt; interface ipv6
+&gt; show neighbors
+<span class="hljs-comment"># arp -d</span>
+&gt; delete neighbors
+<span class="hljs-comment"># disable router discovery (ipv6 feature) if required</span>
+&gt; <span class="hljs-built_in">set</span> interface <span class="hljs-string">&quot;Local Area Network&quot;</span> routerdiscovery=disabled
+</code></pre>
+<h5 id="4-transport">4. Transport</h5>
+<ul>
+<li>Ports come into play in this layer. Check if they are accepting connections on standard/requested ports.
+<code>telnet, nslookup</code></li>
+</ul>
+<p>Ports dictate what application will be receiving packets. We can reach upto layer-7 if we know the port and most of the times the troubleshooting takes place on the application layer. <br>
+Use telnet to see if the application uses just HTTP instead of HTTPS.</p>
+<h4 id="ssltls-toubleshooting">SSL/TLS toubleshooting</h4>
+<p>Use <code>openssl</code> command to glean more information about the certificate <br></p>
+<ul>
+<li>Check if the certificate is correct (Canonicalized DNS name for Kerberos)</li>
+<li>Check if the certificate is valid; not expired</li>
+<li>Check NGINX/Apache (revese proxy) logs and configs</li>
+</ul>
+<h4 id="isolating-the-scope">Isolating the scope</h4>
+<ul>
+<li>How many users are affected?</li>
+<li>How long has this problem been going on?</li>
+<li>Have you ever had this problem before?</li>
+</ul>
+<h3 id="network-slowness">Network slowness</h3>
+<ul>
+<li><p>Different methods while troubleshooting IPv4 (and ICMPv4 pings) and IPv6 (ICMPv6 pings). Traceroute sends multiple packets, don&apos;t be alarmed if some of them time-out.</p>
+</li>
+<li><p>Run traceroute multiple times, sometimes packets take different routes. This can explain intermittant access. One of the routes can be damaged.</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="deployment-aws.html" class="navigation navigation-prev " aria-label="Previous page: Cloud deployments & AWS core services">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="docker-podman-net.html" class="navigation navigation-next " aria-label="Next page: alias docker='podman'">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Practical Network Troubleshooting","level":"3.2","depth":1,"next":{"title":"alias docker='podman'","level":"3.3","depth":1,"path":"TechStuff/docker-podman-net.md","ref":"TechStuff/docker-podman-net.md","articles":[]},"previous":{"title":"Cloud deployments & AWS core services","level":"3.1","depth":1,"path":"TechStuff/deployment-aws.md","ref":"TechStuff/deployment-aws.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css"},"pluginsConfig":{"github":{"url":"https://github.com/VaradGhodake/"},"fontsettings":{"theme":"white","family":"sans","size":1},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Varad Ghodake","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Varad Ghodake's Resume and Portfolio","language":"en","gitbook":"*","description":"An experienced SRE comfortable developing backend systems and middleware, collaborating with others on strategies, discussing solutions with clients, deploying and maintaining products.","direction":"ltr"},"file":{"path":"TechStuff/PracticalNetworking.md","mtime":"2021-12-17T05:26:49.083Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-01T20:29:13.052Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
